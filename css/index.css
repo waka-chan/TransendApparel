@@ -1,4 +1,6 @@
-
+body {
+    padding-top: 100px;
+}
 .topnav a.active {
     margin-right: auto;
     margin-left: 20%;
@@ -168,12 +170,8 @@
   animation: navbar-animation 0.6s;
   /* background-color: rgba(0, 0, 0, .9); */
 }
-.navbar.fixed-top.navbar-dark .navbar-nav .nav-link.active {
-  /* color: #c0ca33; */
-}
-.navbar.fixed-top.navbar-dark .navbar-nav .nav-link::after {
-  background-color: #c0ca33;
-}
+
+/*  */
 .content {
   padding: 120px 0;
 }
@@ -271,3 +269,144 @@
     margin-left: 30%;
     margin-right: auto;
 }
+
+
+footer{
+    color:#A46C79;
+    
+
+
+    /* position:fixed;
+    bottom:0; */
+
+  }
+  
+  .SEmail{}
+  
+  .container img{
+    width: 50%;
+    float:left;
+    position:fixed; left: -15px;
+  } 
+  
+  
+  .next{
+    border-radius: 5px;
+      border: 1px solid black;
+      padding: 20px 40px;
+      background: #9A59CF;
+      cursor: pointer;
+      margin-left: 150px;
+      margin-top: 20px;
+  }
+  
+  .next:hover{
+    background-color: #684B90;
+    color:white;
+  }
+  
+  #formuno{
+    float:right;
+    padding-left: 20px;
+     
+      
+  }
+  
+  .container {
+      align-items: center;
+      justify-content: center;
+    }
+    
+   
+    
+    
+   /* Herobanner */
+   .hero-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: rel;
+    padding: 5%;
+    background-attachment: fixed;
+
+  }
+  .top{
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(90deg, #F0A9B9 -5.62%, #FDF450 39.48%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 36px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    padding: 5px;
+    z-index: 10;
+  }
+  .bottom{
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 10%;
+      transform: translate(-50%, -50%);
+      background: linear-gradient(90deg, #FFFFFF 0%, #6DCDFD 109.79%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-size: 36px;
+      font-family: 'Rubik', sans-serif;
+      font-weight: 700;
+      padding: 5px;
+      z-index: 10;
+  }
+  .button{
+      text-align: center;
+      background-color: transparent;
+      position: absolute;
+      top: 45%;
+      left: 80%;
+      scale: 125%;
+      background: linear-gradient(90deg, #FFFFFF 0%, #6DCDFD 109.79%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 47px;
+      letter-spacing: -0.06em;
+      border: 5px solid #FDF450;
+      border-radius: 20px;
+  }
+  #buttonBox{
+      position: absolute;
+      top: 50%;
+      left: 10%;
+  }
+  #heroDiv{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+  }
+  .backgroundBox{
+      position: absolute;
+      width: 676px;
+      height: 117px;
+      top: 10%;
+      left: 0%;
+    background: linear-gradient(90deg, rgba(31, 33, 34, 0.74) 0%, rgba(17, 18, 18, 0.396979) 33.85%, rgba(0, 0, 0, 0) 100%);
+  }
+  .backgroundBox2{
+      position: absolute;
+      width: 676px;
+      height: 117px;
+      top: 44%;
+      left: 0%;
+    background: linear-gradient(90deg, rgba(31, 33, 34, 0.74) 0%, rgba(17, 18, 18, 0.396979) 33.85%, rgba(0, 0, 0, 0) 100%);
+  }
